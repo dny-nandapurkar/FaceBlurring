@@ -1,5 +1,6 @@
 # FaceBlurring
 
+
 This is a Python application for blurring faces in images and videos using the MediaPipe library for face detection. It also blur faces in real-time.
 
 ## Installation
@@ -8,12 +9,12 @@ Clone this repository to your local machine:
 git clone https://github.com/dny-nandapurkar/face-blur-application.git
 
 
-# Install the required dependencies:
+## Install the required dependencies:
 
 pip install -r requirements.txt
 
 
-# Usage
+## Usage
 
 Arguments
 
@@ -28,7 +29,7 @@ Arguments
 --filePath: Path to the input file (image or video). Required if --mode is set to image or video.
 
 
-# Examples
+## Examples
 
 Process an image:
 
@@ -45,14 +46,14 @@ Use webcam:
 python face_blur.py --mode webcam
 
 
-# Output
+## Output
 
 For the image mode, the processed image will be saved as output/output.png.
 
 For the video mode, the processed video will be saved as output/output.mp4.
 
 
-# Acknowledgments
+## Acknowledgments
 
 This project utilizes the MediaPipe library for face detection.
 
