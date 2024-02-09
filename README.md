@@ -2,7 +2,7 @@
 
 This is a Python application for blurring faces in images and videos using the MediaPipe library for face detection. It also blur faces in real-time.
 
-# Installation
+## Installation
 Clone this repository to your local machine:
 
 git clone https://github.com/dny-nandapurkar/face-blur-application.git
